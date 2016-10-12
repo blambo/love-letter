@@ -1,9 +1,10 @@
 import random
 from game import *
 from dumb import Dumb
+from blambo import Blambo
 from reasonable import Reasonable
 
-players = [Dumb(), Dumb(), Dumb(), Reasonable()]
+players = [Reasonable(), Reasonable(), Reasonable(), Blambo()]
 wins = {}
 for p in players:
   wins[p] = 0
